@@ -1,10 +1,9 @@
 #  Udagram Image Filtering Microservice
-Before submitting, check if you have completed all criteria in the project rubric. The project submission should include a Git repository and a link to the endpoint URL for a running elastic beanstalk deployment (provided through the student notes).
 
 Project:
 
 Setup Node Environment
-You'll need to create a new node server. Open a new terminal within the project directory and run:
+Created a new node server. Open a new terminal within the project directory and run:
 
 Initialized a new project: npm i
 run the development server with npm run dev
