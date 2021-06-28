@@ -5,8 +5,11 @@ Project:
 Setup Node Environment
 
 -Initialized a new project: npm i & run the development server with npm run dev
+
 -Created a new endpoint in the server.ts file
+
 -Coded an endpoint in ./src/server.ts which uses query parameter to download an image from a public URL, filter the image, and return the result.
+
 -Utilized import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
 -Deployed this system to Elastic Bean Stalk AWS Service. 
