@@ -15,3 +15,9 @@ Utilized import {filterImageFromURL, deleteLocalFiles} from './util/util';
 Deployed this system to Elastic Bean Stalk AWS Service. 
 Used 'eb init', 'eb create' a new environment, adn 'eb deploy' to deploy your image-filter service
 
+
+#Local Host URL
+
+
+# Elastic Beanstalk URL
+http://src-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
