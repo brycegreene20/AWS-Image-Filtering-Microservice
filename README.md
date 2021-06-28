@@ -3,20 +3,18 @@
 Project:
 
 Setup Node Environment
-Created a new node server. Open a new terminal within the project directory and run:
 
-Initialized a new project: npm i
-run the development server with npm run dev
-Create a new endpoint in the server.ts file
-The starter code has a task for you to complete an endpoint in ./src/server.ts which uses query parameter to download an image from a public URL, filter the image, and return the result.
+-Initialized a new project: npm i & run the development server with npm run dev
+-Created a new endpoint in the server.ts file
+-Coded an endpoint in ./src/server.ts which uses query parameter to download an image from a public URL, filter the image, and return the result.
+-Utilized import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
-
-Utilized import {filterImageFromURL, deleteLocalFiles} from './util/util';
-Deployed this system to Elastic Bean Stalk AWS Service. 
-Used 'eb init', 'eb create' a new environment, adn 'eb deploy' to deploy your image-filter service
+-Deployed this system to Elastic Bean Stalk AWS Service. 
+ Used EBCLI commamds including : 'eb init', 'eb create' for the new environment, and 'eb deploy' to deploy your image-filter service
 
 
 # Local Host URL
+http://localhost:8082/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
 
 # Elastic Beanstalk URL
